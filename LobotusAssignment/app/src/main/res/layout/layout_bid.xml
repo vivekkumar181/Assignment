@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_layout5"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp">
+
+
+    <ImageView
+        android:id="@+id/farmerimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/farmerimage"
+        android:background="@drawable/bg1"
+        android:padding="5dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/farmerimage"
+        android:layout_marginLeft="5dp">
+
+        <LinearLayout
+            android:id="@+id/lyt1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+
+                android:text="BID"
+               />
+
+
+            <TextView
+                android:id="@+id/bidid"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+
+                android:hint="BID"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/lyt1"
+
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                />
+
+
+            <TextView
+                android:id="@+id/bidname"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+
+                android:hint="Name"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lyt3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/lyt2"
+
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+
+                android:text="Phone"
+                />
+
+
+            <TextView
+                android:id="@+id/bidphone"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+
+                android:hint="Phone"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_below="@+id/lyt3"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+
+                android:text="Village"
+                android:layout_weight="0.5"/>
+
+
+            <TextView
+                android:id="@+id/bidvillage"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="Village"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/lyt4"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+
+                android:text="Aadhar"
+                android:layout_weight="0.5"/>
+
+
+            <TextView
+                android:id="@+id/bidaadhar"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+
+                android:hint="Aadhar"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/lyt5"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="District" />
+
+
+            <TextView
+                android:id="@+id/biddistrict"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="District"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/lyt6"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+
+                android:text="State"
+                />
+
+
+            <TextView
+                android:id="@+id/bidstate"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+
+                android:hint="State"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/imgeditdata"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:minHeight="140dp"
+            android:layout_toRightOf="@+id/lyt7"
+            android:src="@drawable/ic_baseline_edit_24"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

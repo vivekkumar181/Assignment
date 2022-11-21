@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/idm 9 april 20/Movies+games/LobotusAssignment/app/src/main/res/drawable-v24/back_layout5.xml" value="0.2" />
+        <entry key="..\:/idm 9 april 20/Movies+games/LobotusAssignment/app/src/main/res/drawable/bg1.xml" value="0.2" />
+        <entry key="..\:/idm 9 april 20/Movies+games/LobotusAssignment/app/src/main/res/drawable/bg2.xml" value="0.189" />
+        <entry key="..\:/idm 9 april 20/Movies+games/LobotusAssignment/app/src/main/res/drawable/ic_baseline_ac_unit_24.xml" value="0.2" />
+        <entry key="..\:/idm 9 april 20/Movies+games/LobotusAssignment/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.2" />
+        <entry key="..\:/idm 9 april 20/Movies+games/LobotusAssignment/app/src/main/res/drawable/ic_baseline_edit_25.xml" value="0.2" />
+        <entry key="..\:/idm 9 april 20/Movies+games/LobotusAssignment/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.2" />
+        <entry key="..\:/idm 9 april 20/Movies+games/LobotusAssignment/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2" />
+        <entry key="..\:/idm 9 april 20/Movies+games/LobotusAssignment/app/src/main/res/layout/activity_main.xml" value="0.23773584905660378" />
+        <entry key="..\:/idm 9 april 20/Movies+games/LobotusAssignment/app/src/main/res/layout/layout_bid.xml" value="0.4" />
+        <entry key="..\:/idm 9 april 20/Movies+games/LobotusAssignment/app/src/main/res/layout/layout_rip.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

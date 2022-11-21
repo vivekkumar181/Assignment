@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_layout5"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/ripid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="RIPID"
+        android:textColor="#2962FF"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/ripid">
+
+
+        <LinearLayout
+            android:id="@+id/lyt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Productset : "
+                android:layout_marginLeft="20dp"
+                android:textColor="#2962FF"/>
+
+
+            <TextView
+                android:id="@+id/productset"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="productset"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:layout_below="@+id/lyt">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/pump" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:text="PUMP"
+                android:layout_marginLeft="20dp"/>
+
+
+            <TextView
+                android:id="@+id/pumpid"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:hint="pump"
+                android:textColor="#000"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_baseline_remove_red_eye_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/lyt1"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/motor" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:text="MOTOR"
+                android:layout_marginLeft="20dp"/>
+
+
+            <TextView
+                android:id="@+id/ridmotor"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:hint="Motor"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_baseline_remove_red_eye_24" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lyt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/lyt2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/control" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:layout_marginLeft="20dp"
+                android:text="CONTROLLER" />
+
+
+            <TextView
+                android:id="@+id/ripcontroller"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:gravity="center|left"
+                android:hint="Controller"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/ic_baseline_remove_red_eye_24" />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
